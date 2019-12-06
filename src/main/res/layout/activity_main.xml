@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblLocalPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+       >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00b200"
+            android:text="connect"
+            android:drawableLeft="@drawable/ic_call_black_24dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e50000"
+            android:drawableLeft="@drawable/ic_call_end_black_24dp"
+            android:text="Disconnect" />
+    </LinearLayout>
+    </LinearLayout>
